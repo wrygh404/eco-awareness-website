@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carbon Emissions & Forest Loss in the Philippines</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #00ffcc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        section {
+            min-height: 100vh;
+            padding: 100px 50px;
+        }
+
+        h1, h2 {
+            margin-bottom: 20px;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            color: #00ffcc;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
+        }
+
+        .gallery img {
+            width: 300px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .device img {
+            width: 400px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: black;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#analysis">Data Analysis</a>
+    <a href="#gallery">Infographics</a>
+    <a href="#device">Future Device</a>
+    <a href="#about">About Us</a>
+</nav>
+
+<section id="home" class="hero">
+    <h1>Carbon Emissions & Forest Loss</h1>
+    <p>Understanding the environmental crisis in the Philippines</p>
+</section>
+
+<section id="analysis">
+    <h2>Data Interpretation</h2>
+    <div class="card">
+        <p>
+            Studies show that as forest land decreases, carbon emissions increase. 
+            Forests absorb carbon dioxide, acting as natural carbon sinks.
+            In the Philippines, deforestation contributes to rising atmospheric carbon levels.
+        </p>
+        <p>
+            Protecting forest land is essential in reducing greenhouse gases and slowing climate change.
+        </p>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Infographics</h2>
+    <div class="gallery">
+        <!-- Replace with your actual infographic images -->
+        <img src="https://via.placeholder.com/300x200" alt="Infographic 1">
+        <img src="https://via.placeholder.com/300x200" alt="Infographic 2">
+    </div>
+</section>
+
+<section id="device" class="device">
+    <h2>Futuristic Device: EcoSphere Carbon Absorber</h2>
+    <div class="card">
+        <p>
+            The EcoSphere Carbon Absorber is a futuristic device designed to filter carbon dioxide from urban air.
+            It uses AI-powered sensors to detect high carbon areas and convert CO₂ into oxygen using synthetic photosynthesis technology.
+        </p>
+        <p>
+            Features:
+            <ul>
+                <li>Solar-powered energy system</li>
+                <li>AI pollution monitoring</li>
+                <li>Carbon capture and conversion system</li>
+                <li>Real-time data tracking</li>
+            </ul>
+        </p>
+    </div>
+
+    <!-- Replace with AI-generated image -->
+    <img src="https://via.placeholder.com/400x300" alt="Futuristic Device">
+</section>
+
+<section id="about">
+    <h2>About the Researchers</h2>
+    <div class="card">
+        <p>
+            This webpage was developed by students committed to promoting environmental awareness 
+            and sustainable solutions for the Philippines.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>Sources: DENR, World Bank, Climate Data Reports</p>
+</footer>
+
+</body>
+</html>
